@@ -1,0 +1,33 @@
+{
+  "name": "simple-moive-cart",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@heroicons/react": "^1.0.6",
+    "@reduxjs/toolkit": "^1.8.1",
+    "axios": "^0.26.1",
+    "dayjs": "^1.11.1",
+    "framer-motion": "^6.3.1",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-redux": "^8.0.1",
+    "redux-persist": "^6.0.0",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "@types/uuid": "^8.3.4",
+    "@vitejs/plugin-react": "^1.3.0",
+    "autoprefixer": "^10.4.5",
+    "postcss": "^8.4.12",
+    "tailwindcss": "^3.0.24",
+    "typescript": "^4.6.3",
+    "vite": "^2.9.5"
+  }
+}
